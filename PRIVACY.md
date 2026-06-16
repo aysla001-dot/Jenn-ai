@@ -1,0 +1,13 @@
+# Jenn AI Privacy Policy
+
+Jenn AI is a personal SMS companion application used by one authorized user.
+
+Jenn AI collects the user's phone number and SMS message content only to provide AI-powered SMS replies and scheduled messages.
+
+Jenn AI does not sell, rent, or share personal information for marketing purposes.
+
+SMS messages may be processed by Twilio for message delivery and OpenAI for AI response generation.
+
+Users may opt out at any time by replying STOP.
+
+Users may request deletion of their data by contacting the service owner.
