@@ -28,6 +28,11 @@ const openai = new OpenAI({
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
+app.get("/", (_req, res) => {
+  res.send("Jenn AI is online ❤️");
+});
+
+
 app.get("/health", (_req, res) => {
   res.json({ ok: true });
 });
