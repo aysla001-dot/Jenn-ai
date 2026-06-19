@@ -32,6 +32,9 @@ app.get("/", (_req, res) => {
   res.send("Jenn AI is online ❤️");
 });
 
+app.get("/signup", (_req, res) => {
+  res.sendFile(__dirname + "/signup.html");
+});
 
 app.get("/health", (_req, res) => {
   res.json({ ok: true });
