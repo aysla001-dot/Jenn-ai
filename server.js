@@ -36,6 +36,14 @@ app.get("/signup", (_req, res) => {
   res.sendFile(__dirname + "/signup.html");
 });
 
+app.get("/privacy", (_req, res) => {
+  res.sendFile(__dirname + "/privacy.html");
+});
+
+app.get("/terms", (_req, res) => {
+  res.sendFile(__dirname + "/terms.html");
+});
+
 app.get("/health", (_req, res) => {
   res.json({ ok: true });
 });

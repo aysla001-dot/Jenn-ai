@@ -1,0 +1,15 @@
+# Jenn AI Terms and Conditions
+
+Jenn AI is a personal AI SMS companion.
+
+By using Jenn AI, the user consents to receive SMS messages from Jenn AI.
+
+Message frequency varies based on user interaction and configured reminders or check-ins.
+
+Message and data rates may apply.
+
+Users may reply STOP at any time to opt out.
+
+Users may reply HELP for assistance.
+
+Jenn AI is provided as-is and may generate inaccurate or incomplete responses. Jenn AI is not a substitute for emergency, medical, legal, financial, or mental health support.
