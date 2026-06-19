@@ -41,6 +41,8 @@ app.post("/sms", async (req, res) => {
   const incomingMessage = (req.body.Body || "").trim();
   const from = req.body.From;
   const twiml = new twilio.twiml.MessagingResponse();
+  console.log("Incoming SMS:", incomingMessage);
+  console.log("From:", from);
 
   res.type("text/xml");
 
