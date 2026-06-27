@@ -36,6 +36,43 @@ app.get("/signup", (_req, res) => {
   res.sendFile(__dirname + "/signup.html");
 });
 
+app.post("/signup", (req, res) => {
+
+  const { name, phone } = req.body;
+
+  console.log("Signup received:");
+  console.log(name);
+  console.log(phone);
+
+  res.send(`
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <title>Signup Complete</title>
+      </head>
+      <body style="font-family: Arial; max-width:700px; margin:50px auto; line-height:1.6">
+
+        <h1>Thanks for signing up!</h1>
+
+        <p>Your request has been received.</p>
+
+        <p>
+          Jenn AI will send automated SMS messages after your enrollment is complete.
+        </p>
+
+        <p>
+          Message frequency varies.<br>
+          Message & data rates may apply.<br>
+          Reply HELP for help.<br>
+          Reply STOP to cancel.
+        </p>
+
+      </body>
+    </html>
+  `);
+
+});
+
 app.get("/privacy", (_req, res) => {
   res.sendFile(__dirname + "/privacy.html");
 });
