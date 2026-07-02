@@ -52,12 +52,17 @@ app.post("/signup", (req, res) => {
       </head>
       <body style="font-family: Arial; max-width:700px; margin:50px auto; line-height:1.6">
 
-        <h1>Thanks for signing up!</h1>
+        <h1>SMS Enrollment Request Received</h1>
 
-        <p>Your request has been received.</p>
+        <p>Your voluntary SMS enrollment request has been received.</p>
 
         <p>
-          Jenn AI will send automated SMS messages after your enrollment is complete.
+          Consent to receive SMS messages is optional and is not required to use Jenn AI
+          or create an account.
+        </p>
+
+        <p>
+          Jenn AI may send automated SMS messages only after SMS enrollment is complete.
         </p>
 
         <p>
